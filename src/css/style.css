@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+
+@tailwind base;
+body {
+  font-family: "Open Sans", sans-serif;
+}
+@tailwind components;
+.card-pricing {
+  max-width: 340px;
+}
+@screen sm {
+}
+@screen md {
+}
+@screen lg {
+  .card-pricing {
+    max-width: 330px;
+  }
+}
+@screen xl {
+  .card-pricing {
+    max-width: 440px;
+  }
+}
+@tailwind utilities;
+.container {
+  max-width: 1280px;
+  /* padding: 0 1.5rem; */
+  margin: auto;
+  overflow: hidden;
+}
+.fixed-height {
+  height: 700px;
+  min-height: 700px;
+}
+.bg-imageRgba {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.footer {
+  height: 400px;
+}
+
+.bg-footer {
+  background-color: rgba(5, 11, 37, 0.85);
+}
+.btn-grdient {
+  border: none;
+  transition-duration: 500ms;
+  background: linear-gradient(to right, #b6e358, #38b143);
+}
+.text-gradient {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(to right, #b3e258, #39b143);
+  background: linear-gradient(to right, #b3e258, #39b143);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-pricing {
+  width: 350px;
+  /* height: 100px; */
+  /* min-height: 600px; */
+}

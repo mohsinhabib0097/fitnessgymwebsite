@@ -1,0 +1,6 @@
+.nav-active {
+  color: #38b143 !important;
+}
+.nav-scroll-transition {
+  transition: all 700ms ease-in-out;
+}
